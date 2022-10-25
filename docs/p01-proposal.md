@@ -1,4 +1,4 @@
-# Title of your Project: Drugs
+# Title of your Project: sleep (lack thereof)
 
 **TODO**: Edit this file. Your project proposal goes here.
 
@@ -28,8 +28,10 @@ We are concerned with..., because... To address this concern, we plan to...
 
 
 ## The Dataset
-
-
+FYI: these are just potential ones we can use, doesn't have to be final
+[potential thing 1](https://www.kaggle.com/datasets/nabilajahan/student-study-performance)
+[potential 2: perhaps link being in college to their sleep, and see the patterns in exam success](https://www.kaggle.com/datasets/spscientist/students-performance-in-exams)
+[potential 3: links sleep score to depression/anxiety score:](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/94KDOL)
 ## Expected Implications
 
 
