@@ -16,7 +16,7 @@ University of Washington
 *Date*: Autumn 2022
 
 ## Abstract 
-We are concerned with..., because... To address this concern, we plan to...
+The main question is embedded into the title of this project; _**just how impactful is sleep for a college student?**_ This question is important because for the lives of many students, healthy sleep is not a high priority to them and in most cases is often neglected. To address the question, we will look into datasets that provide insightful information about students’ grades, health, and overall well-being in correlation to their sleeping habits. 
 
 ## Keywords
 
