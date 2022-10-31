@@ -30,7 +30,9 @@ Sleep deprivation is common amongst university students who live in a culture th
 
 
 ## Research Questions
-
+1. How does mental health and the quality of sleep correlate among university students?
+2. What is the relationship between sleep duration and academic performance for university students for online learning during the COVID-19 pandemic.
+3. How does sleep duration and quality impact university students’ academic performance?
 
 ## The Dataset
 FYI: these are just potential ones we can use, doesn't have to be final
