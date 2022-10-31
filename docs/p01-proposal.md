@@ -18,12 +18,14 @@ The main question is embedded into the title of this project; _**just how impact
 ## Introduction
 Sleep deprivation is common amongst university students who live in a culture that promotes reduced sleep, due to the burden of academic work and social pursuits. Sleep deprivation and sleepiness are caused by a host of reasons and have numerous negative consequences. Some of the reasons for poor sleep hygiene include alcohol and caffeine intake, stimulants, and technology, which prevent students achieving sufficient sleep time and quality.  sleep deprivation is often termed either acute sleep deprivation or chronic partial sleep deprivation. acute sleep deprivation is termed “pulling an all-nighter”, meaning that a person stays up for 24 hours or longer. More typically, sleep deprivation consists of chronic partial sleep deprivation, where a student obtains some, but not adequate sleep. A cross-sectional survey found that 71% of students did not achieve the recommended 8 h of sleep, with 60% classified as poor sleepers. While many studies have investigated the effects of sleep deprivation, few focus on university students, despite the prevalence and impact of sleep deprivation in this population. This project is aimed to show how a night of sleep deprivation, equivalent to an “all-nighter”, would have a negative impact on the motor and cognitive performance of students.
 
-# Problem Domain
 
 ## Research Questions
 1. How does mental health and the quality of sleep correlate among university students?
 2. What is the relationship between sleep duration and academic performance for university students for online learning during the COVID-19 pandemic?
 3. How does sleep duration and quality impact university students’ academic performance?
+
+# Problem Domain
+
 
 ## The Dataset
 
@@ -32,6 +34,8 @@ FYI: these are just potential ones we can use, doesn't have to be final
 [potential thing 1](https://www.kaggle.com/datasets/nabilajahan/student-study-performance)
 [potential 2: perhaps link being in college to their sleep, and see the patterns in exam success](https://www.kaggle.com/datasets/spscientist/students-performance-in-exams)
 [potential 3: links sleep score to depression/anxiety score:](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/94KDOL)
+
+
 ## Expected Implications
 
 
