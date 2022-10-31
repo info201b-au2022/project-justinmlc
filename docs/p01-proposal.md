@@ -1,12 +1,10 @@
 # How Impactful is Sleep for a College Student?
 
-Authors: Justin, Lauryn, Samuel, Edrick (put last names later)
+Created By Justin C., Lauryn E., Samuel S., and Zerong W.
 
-Affiliation: INFO-201: Technical Foundations of Informatics
-The Information School
-University of Washington
+Autumn 2022
 
-*Date*: Autumn 2022
+*INFO-201: Technical Foundations of Informatics, The Information School, University of Washington*
 
 ## Abstract
 The main question is embedded into the title of this project; _**just how impactful is sleep for a college student?**_ This question is important because for the lives of many students, healthy sleep is not a high priority to them and in most cases is often neglected. To address the question, we will look into datasets that provide insightful information about students’ grades, health, and overall well-being in correlation to their sleeping habits.
