@@ -25,8 +25,12 @@ The main question is embedded into the title of this project; _**just how impact
 
 ## Research Questions
 1. How does mental health and the quality of sleep correlate among university students?
+  a. This question is important because it shapes the entirety of our research. The datasets we collected involve these topics and it is important to figure out the relationship. This research could help out these college students and find a way to be able to better their learning experience.
 2. What is the relationship between sleep duration and academic performance for university students for online learning during the COVID-19 pandemic?
+  a. Specifically during the pandemic, online learning was very tiring and overwhelming for many students. Diving deeper into the study can help show how much of a toll this adjustment played on the students.
 3. How does sleep duration and quality impact university students’ academic performance?
+  a. Hopefully after analyzing this data, students can better learn how to be able to have a balance of both sleep and school. Alongside that, how teachers and school curriculum can allow students to function properly and not assign too much work.
+
 
 ## Problem Domain
 * As our title suggests, our topic focuses on the _**impact of sleep on college students**_, which is exactly what we are concerned about as college students. "According to the National Sleep Foundation, high school students (ages 14 to 17) need about 8 to 10 hours of sleep per night. For young adults (ages 18 to 25), this range requires 7 to 9 hours"(Hirshkowitz, 2015) However, most college students are getting far less than the recommended amount of sleep. "70 to 96 percent of college students get less than eight hours of sleep per week at night. More than half of college students get less than seven hours of sleep per night"(Ryan, 2022) This lack of sleep often has a negative impact on their **academic performance, physical and mental health, and overall well-being**. Our project aims to explore the extent to which sleep affects college students by collecting relevant data sets. 
@@ -62,7 +66,8 @@ Below is a table presenting all of the data files that we have gathered:
 
 
 ## Limitations
-
+1. One limitation of our data is that one of the studies, "Exploring poor sleep, mental health, and help‐seeking intention in university students, Australian Journal of Psychology", has an over representation of women. With 98 out of the 117 subjects being women, it limited the study and its generalization. The study suggested that next time, they could try and balance this number out.
+2. The second limitation of our data is that one of the studies, "Student Study Performance", was not clearly labeled and hard to interpret. For example, the study has a column labeled, "Your sleep hour. How long a student sleep throughout the week?" Then, with the data ranging from 5-8. It can be seen as confusing as it is not normal for a person to get 8 hours of sleep during a whole week. It also is not clear whether or not that is the average amount of hours per sleep in a week.
 
 ## References
 1. Ahammed Benojoir et. all. Exploring the association between mental health and subjective sleep quality during COVID-19 pandemic among Bangladeshi university students. Harvard Dataverse. https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/94KDOL
