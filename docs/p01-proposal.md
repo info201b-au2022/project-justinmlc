@@ -2,7 +2,7 @@
 
 ## Codename: Project Sleepy
 
-Created By Justin C., Lauryn E., Samuel S., and Zerong W .
+Created By Justin C., Lauryn E., Samuel S., and Zerong W.
 
 Contact information: justinlc@uw.edu, lewing19@uw.edu, sammy206@uw.edu, wzr002@uw.edu
 
@@ -91,7 +91,5 @@ Sleep deprivation has significant effects. Sleep-deprived professionals struggle
 8. Why you should make a good night's sleep a priority. Harvard Summer School. (2021, May 28). Retrieved October 31, 2022, from https://summer.harvard.edu/blog/why-you-should-make-a-good-nights-sleep-a-priority/
 
 
-
-
-
 ## Appendix A: Questions
+For the problem domain section, I am not sure what the format of the required citations should be, so I used the hyperlink form to cite. -- Zerong W. 
