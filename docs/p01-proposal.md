@@ -31,9 +31,9 @@ The main question is embedded into the title of this project; _**just how impact
 ## Problem Domain
 * As our title suggests, our topic focuses on the _**impact of sleep on college students**_, which is exactly what we are concerned about as college students. "According to the National Sleep Foundation, high school students (ages 14 to 17) need about 8 to 10 hours of sleep per night. For young adults (ages 18 to 25), this range requires 7 to 9 hours"(Hirshkowitz, 2015) However, most college students are getting far less than the recommended amount of sleep. "70 to 96 percent of college students get less than eight hours of sleep per week at night. More than half of college students get less than seven hours of sleep per night"(Ryan, 2022) This lack of sleep often has a negative impact on their **academic performance, physical and mental health, and overall well-being**. Our project aims to explore the extent to which sleep affects college students by collecting relevant data sets. Also, this project demonstrates the relevance of human well-being, which is related to the **quality of life**.
 
-* In the past few years, Covid-19 has been a global pandemic that has had a significant impact on people, including college students. Due to the impact of the Covid-19 pandemic, during that time, most universities switched their class mode to remote, which also had an impact on college students' sleep and grades. Meanwhile, some college students experience mental health issues, such as depression and anxiety. We are curious to know if this is related to the general lack of sleep time among college students. Therefore, in the project, we will use relevant data set to analyze the relationship between sleep and performance during the online learning mode of college students, as well as the association between college students' mental health and sleep.
+* In the past few years, Covid-19 has been a global pandemic that has had a significant impact on people, including college students. Due to the impact of the Covid-19 pandemic, during that time, most universities switched their class mode to remote, which also had an impact on college students' sleep and grades. Meanwhile, some college students experience mental health issues, such as depression and anxiety. We are curious to know if this is related to the general lack of sleep time among college students. Therefore, in the project, we will use relevant data sets to analyze the relationship between sleep and performance during the online learning mode of college students, as well as the association between college students' mental health and sleep.
 
-* In this project, the direct stakeholders are college students and the indirect stakeholders are professors and universities. The **possible harms** of sleep deprivation may include fatigue, irritability, short temper, difficulty coping with stress, and difficulty concentrating and remembering. These can have a negative impact on the quality of life of college students as well as on their performance. In addition, chronic sleep deprivation can have serious negative effects on physical and mental health. College students who **prioritize sleep** may see improvements in their academic performance, be more productive, more detail-oriented, and be able to concentrate better while studying. Through this project, we hope that university students will pay more attention to their sleep and promote healthy sleep to reduce the negative effects associated with sleep.
+* In this project, the direct stakeholders are college students and the indirect stakeholders are professors and universities. The **possible harms** of sleep deprivation may include fatigue, irritability, short temper, difficulty coping with stress, and difficulty concentrating and remembering. These can have a negative impact on the quality of life of college students as well as on their performance. In addition, chronic sleep deprivation can have serious negative effects on physical and mental health. "College students who **prioritize sleep** may see improvements in their academic performance, be more productive, more attentive to detail, and be able to concentrate better while studying."(Harvard Summer School, 2021) Through this project, we hope that university students will pay more attention to their sleep and promote healthy sleep to reduce the negative effects associated with sleep.
 
 
 ## The Dataset
@@ -67,7 +67,7 @@ Hirshkowitz, M., Whiton, K., Albert, S. M., Alessi, C., Bruni, O., DonCarlos, L.
 
 Marina L. Zochil & Einar B. Thorsteinsson (2018) Exploring poor sleep, mental health, and help‐seeking intention in university students, Australian Journal of Psychology, 70:1, 41-47, https://www.tandfonline.com/doi/full/10.1111/ajpy.12160
 
-MediLexicon International. (n.d.). Sleep deprivation: Causes, symptoms, and treatment. Medical News Today. Retrieved October 31, 2022, from https://www.medicalnewstoday.com/articles/307334#symptoms-of-deprivation 
+MediLexicon International. (2020, July 23). Sleep deprivation: Causes, symptoms, and treatment. Medical News Today. Retrieved October 31, 2022, from https://www.medicalnewstoday.com/articles/307334#symptoms-of-deprivation 
 
 Nabila. (2022). <i>Student Study performance</i> [Data set]. Kaggle. https://doi.org/10.34740/KAGGLE/DSV/3873615
 
@@ -75,7 +75,8 @@ Ryan, T. (2022, August 29). Retrieved October 31, 2022, from https://www.sleepfo
 
 Seshapanpu (2018) Student Performance in Exams. Kaggle. https://www.kaggle.com/datasets/spscientist/students-performance-in-exams
 
-Why you should make a good night's sleep a priority. Harvard Summer School. (2022, August 9). Retrieved October 31, 2022, from https://summer.harvard.edu/blog/why-you-should-make-a-good-nights-sleep-a-priority/ 
+Why you should make a good night's sleep a priority. Harvard Summer School. (2021, May 28). Retrieved October 31, 2022, from https://summer.harvard.edu/blog/why-you-should-make-a-good-nights-sleep-a-priority/
+
 
 
 
