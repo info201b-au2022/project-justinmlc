@@ -25,11 +25,11 @@ The main question is embedded into the title of this project; _**just how impact
 
 ## Research Questions
 1. How does mental health and the quality of sleep correlate among university students?
-  a. This question is important because it shapes the entirety of our research. The datasets we collected involve these topics and it is important to figure out the relationship. This research could help out these college students and find a way to be able to better their learning experience.
+**Explanation:** This question is important because it shapes the entirety of our research. The datasets we collected involve these topics and it is important to figure out the relationship. This research could help out these college students and find a way to be able to better their learning experience.
 2. What is the relationship between sleep duration and academic performance for university students for online learning during the COVID-19 pandemic?
-  a. Specifically during the pandemic, online learning was very tiring and overwhelming for many students. Diving deeper into the study can help show how much of a toll this adjustment played on the students.
+**Explanation:** Specifically during the pandemic, online learning was very tiring and overwhelming for many students. Diving deeper into the study can help show how much of a toll this adjustment played on the students.
 3. How does sleep duration and quality impact university students’ academic performance?
-  a. Hopefully after analyzing this data, students can better learn how to be able to have a balance of both sleep and school. Alongside that, how teachers and school curriculum can allow students to function properly and not assign too much work.
+**Explanation:** Hopefully after analyzing this data, students can better learn how to be able to have a balance of both sleep and school. Alongside that, how teachers and school curriculum can allow students to function properly and not assign too much work.
 
 
 ## Problem Domain
