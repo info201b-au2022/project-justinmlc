@@ -25,10 +25,15 @@ Sleep deprivation is common amongst university students who live in a culture th
 3. How does sleep duration and quality impact university students’ academic performance?
 
 ## Problem Domain
+As our title suggests, our topic focuses on the impact of sleep on college students, which is exactly what we are concerned about as college students. According to the National Sleep Foundation, high school students (ages 14 to 17) need about 8 to 10 hours of sleep per night. For young adults (ages 18 to 25), this range requires 7 to 9 hours. However, most students are getting far less than the recommended amount of sleep. 70 to 96 percent of college students get less than eight hours of sleep per week at night. More than half of college students get less than seven hours of sleep per night. This lack of sleep often has a negative impact on their academic performance, physical and mental health, and overall well-being. Our project aims to explore the extent to which sleep affects college students by collecting relevant data sets. Also, this project demonstrates the relevance of human well-being, which is related to the quality of life.
+
+In the past few years, Covid-19 has been a global pandemic that has had a significant impact on people, including college students. Due to the impact of the covid-19 pandemic, during that time, most universities switched their class mode to remote, which also had an impact on college students' sleep and grade. Meanwhile, some college students experience mental health issues, such as depression and anxiety. We are curious to know if this is related to the general lack of sleep time among college students. Therefore, in the project, we will use relevant data to analyze the relationship between sleep and performance during the online learning process of college students, as well as the association between college students' mental health and sleep.
+
+In this project, the direct stakeholders are college students and the indirect stakeholders are professors and universities. The possible harms of sleep deprivation may include fatigue, irritability, short temper, difficulty coping with stress, and difficulty concentrating and remembering. These can have a negative impact on the quality of life of college students as well as on their performance. In addition, chronic sleep deprivation can have serious negative effects on physical and mental health. College students who prioritize sleep may see improvements in their academic performance, be more productive, more detail-oriented, and be able to concentrate better while studying. Through this project, we hope that university students will pay more attention to their sleep and promote healthy sleep to reduce the negative effects associated with sleep.
 
 
 ## The Dataset
-The data that we have gathered all connect through one important aspect: Amount of sleep. We can use these connections to find the correlations between mental health, academic performance, and overall happiness and well-being of students. 
+The data that we have gathered all connect through one important aspect: Amount of sleep. We can use these connections to find the correlations between mental health, academic performance, and overall happiness and well-being of students.
 
 Below is a table presenting all of the data files that we have gathered:
 
