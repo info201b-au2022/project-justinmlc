@@ -44,11 +44,6 @@ Below is a table presenting all of the data files that we have gathered:
 3. The data for third observation was provided by many people associated with the Harvard Dataverse. The aim of the study was to "explore the relationship between different mental health problems, including anxiety, depression, and fear of COVID-19, with subjective sleep quality." Again, no evidence of funding was found for this dataset. We found this dataset to be credible due to its abundance in documentation and it having a License/Data Use Agreement. We found this using Google Dataset Search.
 4. The data for the fourth observation was provided by Marina L. Zochil and Einar Thorsteinsson in 2016. It aimed to examine moderating effects of sleep quality with help-seeking intention. No source of funding was found for this effort. We found it credible through its high quality documentation, and found the data through Google Dataset Search.
 
-FYI: these are just potential ones we can use, doesn't have to be final
-[potential thing 1](https://www.kaggle.com/datasets/nabilajahan/student-study-performance)
-[potential 2: perhaps link being in college to their sleep, and see the patterns in exam success](https://www.kaggle.com/datasets/spscientist/students-performance-in-exams)
-[potential 3: links sleep score to depression/anxiety score:](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/94KDOL)
-
 
 ## Expected Implications
 
