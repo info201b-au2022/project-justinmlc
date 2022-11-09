@@ -2,7 +2,7 @@
 
 ## Codename: Project Sleepy
 
-Created By Justin C., Lauryn E., Samuel S., and Zerong W.
+Created By Justin C., Lauryn E., Samuel S., and Zerong W .
 
 Contact information: justinlc@uw.edu, lewing19@uw.edu, sammy206@uw.edu, wzr002@uw.edu
 
@@ -89,6 +89,8 @@ Sleep deprivation has significant effects. Sleep-deprived professionals struggle
 7. Seshapanpu (2018) Student Performance in Exams. Kaggle. https://www.kaggle.com/datasets/spscientist/students-performance-in-exams
 
 8. Why you should make a good night's sleep a priority. Harvard Summer School. (2021, May 28). Retrieved October 31, 2022, from https://summer.harvard.edu/blog/why-you-should-make-a-good-nights-sleep-a-priority/
+
+41-47, https://www.tandfonline.com/doi/full/10.1111/ajpy.12160
 
 
 ## Appendix A: Questions
