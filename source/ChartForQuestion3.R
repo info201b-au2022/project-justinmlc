@@ -1,20 +1,21 @@
 # Chart / Data Wrangling for Research Question 3: 
 # How does sleep duration and quality impact university students’ academic performance?
+
+# Load in necessary packages
 library(tidyverse)
 library(ggplot2)
 
-df <- read.csv("https://storage.googleapis.com/kagglesdsdata/datasets/
-               2302266/3873615/Student%20Study%20data.csv?
-               X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=
-               gcp-kaggle-com%40kaggle-161607.iam.gserviceaccount.com
-               %2F20221110%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=
-               20221110T211700Z&X-Goog-Expires=259200&X-Goog-SignedHeaders=
-               host&X-Goog-Signature=79c447b06517b21644580f097583e77ecc8ea25
-               6fbb7a7b4a94e1fcf5401f0573940d69c6aab358042138bcda3746fb11962
-               70a6378d4d7042caa22c05b108d8000925bcf38a065fbcabc7fe1a9bf1c1f
-               2ce827ee8421cc4a5606becffc1ca878cecde41638d72c010446f9194bfa
-               8d2b670c6c74af3b7d81c1130913cc6965a3a6b5238aecfa646898b19bd3
-               58029d6f9c453abf1373deb0dc7792b35355b3d4c90dc637d6c122722ef2
-               053e7363154714cb48d3652e5137711ff9795c3aaa8fd70f5107fdd90eb73
-               41c00896bdf1934838ddc628d1f72ed981ce6b885f9cbe13804d10c68a2ab
-               3545faa72a2100a6023683313666048660e1899704c77765a")
+# Read the csv file/files
+df <- read.csv("https://storage.googleapis.com/kagglesdsdata/datasets/2302266/3873615/Student%20Study%20data.csv?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=gcp-kaggle-com%40kaggle-161607.iam.gserviceaccount.com%2F20221110%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20221110T213846Z&X-Goog-Expires=259200&X-Goog-SignedHeaders=host&X-Goog-Signature=39b470f2f96f342a84fcaf1fcf7d5fe808f78bf3bd0cb49633b3f77bf3d4de113ec74996b8d559fca3a9296ab05cd52ff76f986553e66a8b0d0f8ca4eaa1a71b14890c3ebb0888559c82e524a7eec8d33718e6d356f4b7b8afb25b2b61ae4a3f3bd361cd81cae2b5a1f46af69be205fb49975f3f958bf2e691b671021fed04d524abe6841c0c3b12e38a9657b8fdcbfb4e8c8684abbe96148af44c820a09ea5cfbb199c01c6b518282fd6c1a488d3de38ff6e566969e2c369a684d7cb0cc80dc2471f9bcfa16ab39993c7f2139e71d0c04541886e265439d2e74a6ce08aedefae390fe9167a5619b7a4002f060c9983107d53239e94b6377b8cf9c928a327ab7")
+
+relevant_data <- df %>% 
+  select(your.sleep.hour., what.is.your.cgpa)
+
+chart3 <- ggplot(relevant_data) + 
+  geom_col(
+    mapping = aes(x=what.is.your.cgpa, 
+                  y=your.sleep.hour.,
+                  fill=your.sleep.hour.)
+    
+  )
+chart3
