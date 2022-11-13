@@ -28,3 +28,13 @@ chart3 <- ggplot(relevant_data) +
   theme(legend.position = "none")
   
 chart3
+
+find_max_avg_sleep <- function() {
+  max_avg_sleep <- df %>% 
+    filter(what.is.your.cgpa == max(what.is.your.cgpa, na.rm = TRUE)) %>% 
+    drop_na() %>% 
+    group_by(what.is.your.cgpa) %>% 
+    summarize(avg_sleep = mean(your.sleep.hour., na.rm = TRUE)) %>% 
+    pull(avg_sleep)
+  return(round(max_avg_sleep, 1))
+}

@@ -1,7 +1,7 @@
 ---
-title: "Your Project Title"
-author: "project team members"
-date: "1/22/2022"
+title: "Project Sleepy"
+author: "Justin C, Lauryn E, Samuel S, Zerong W"
+date: "11/14/2022"
 output: html_document
 ---
 
@@ -52,3 +52,11 @@ plot(pressure)
 ```
 
 Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+
+```{r, echo=FALSE}
+source("../source/ChartForQuestion3.R")
+plot(chart3)
+max_avg_sleep <- find_max_avg_sleep()
+```
+
+This bar chart is in correspondence to our third research question: *"How does sleep duration and quality impact university students’ academic performance?"* This visualization was included to display the cumulative GPA of students in correlation to the average amount of sleep they would get. We observed that as the amount of sleep a student got decreased, so did their cumulative GPA. A notable observation is that even solely considering the highest GPAs, the average amount of sleep a student got was only `r max_avg_sleep` hours, which is below the widely-recommended **8** hours of sleep.
