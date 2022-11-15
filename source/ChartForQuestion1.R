@@ -11,13 +11,13 @@ df <- read.csv("https://raw.githubusercontent.com/info201b-au2022/project-justin
 dataset_1 <- df %>% 
   select(study.hour, what.is.your.cgpa) %>% 
   group_by(what.is.your.cgpa) %>% 
-  summarize(avgstudyhr = mean(study.hour))
+  summarize(avgstudyhr = mean(study.hour, na.rm = TRUE))
 
  chart1 <- ggplot(dataset_1) + 
-  geom_histogram(
+  geom_col(
     mapping = aes(
       x = what.is.your.cgpa, 
-      y = avgsleep, fill=what.is.your.cgpa)  
+      y = avgstudyhr, fill=what.is.your.cgpa)  
   ) + 
   
   labs(
@@ -26,7 +26,7 @@ dataset_1 <- df %>%
     title = "Students' GPA and time they spent studying",
   ) + 
   theme(legend.position = "none")
-plot(chart1)
+chart1
 
 find_max_avg_studyhr <- function() {
   max_avg_studyhr <- df %>% 
@@ -36,4 +36,11 @@ find_max_avg_studyhr <- function() {
     summarize(avg_studyhr = mean(study.hour, na.rm = TRUE)) %>% 
     pull(avg_studyhr)
   return(round(max_avg_studyhr, 1))
+}
+
+find_min_studyhr <- function() {
+  min_studyhr <- df %>% 
+    filter(study.hour == min(study.hour)) %>% 
+    pull(study.hour)
+  
 }

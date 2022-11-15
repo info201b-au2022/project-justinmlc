@@ -48,10 +48,12 @@ summary(cars)
 You can also embed plots, for example:
 
 ```{r pressure, echo=FALSE}
-plot(pressure)
+source("../source/ChartForQuestion1.R")
+plot(chart1)
+min_study_hr <- find_min_studyhr()
 ```
 
-Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+This bar chart is in correspodance to our first research question *"Does longer study hours correspond to a higher GPA?"* This visualization was included in order to find a correspondence between a person's GPA and the time they spend studying. According to our findings, it appears that time spent studying has no real correlation to school performance GPA-wise. For example, the minimum time someone has spent studying is `r min_study_hr`, but the students with that amount of study time on average do not have the lowest GPAs.
 
 ```{r, echo=FALSE}
 source("../source/ChartForQuestion3.R")
