@@ -36,11 +36,11 @@ Sleep deprivation is common amongst university students who live in a culture th
 
 
 ## Research Questions
-1. How does mental health and the quality of sleep correlate among university students?
+1. "Does longer duration of studying lead to a higher GPA"
 
-**Explanation:** This question is important because it shapes the entirety of our research. The datasets we collected involve these topics and it is important to figure out the relationship. This research could help out these college students and find a way to be able to better their learning experience.
+**Explanation:** This question is important because it shapes the entirety of our research. The datasets we collected involve these topics and it is important to figure out the relationship. This research could help out these college students and find a way to be able to better their learning experience and potentially further their grade.
 
-2. What is the relationship between sleep duration and academic performance for university students for online learning during the COVID-19 pandemic?
+2. What is the relationship between sleep duration and fear of COVID-19 for university students for online learning during the COVID-19 pandemic?
 
 **Explanation:** Specifically during the pandemic, online learning was very tiring and overwhelming for many students. Diving deeper into the study can help show how much of a toll this adjustment played on the students.
 
