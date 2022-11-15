@@ -16,8 +16,8 @@ The main question is embedded into the title of this project; _**just how impact
 ## Keywords
 * Mental Health
 * Sleep deprivation
-* Circadian rhythms
-* Sleep quality
+* Subjective sleep quality
+* University students
 
 ## Introduction
 Sleep deprivation is common amongst university students who live in a culture that promotes reduced sleep, due to the burden of academic work and social pursuits. Sleep deprivation and sleepiness are caused by a host of reasons and have numerous negative consequences. Some of the reasons for poor sleep hygiene include alcohol and caffeine intake, stimulants, and technology, which prevent students achieving sufficient sleep time and quality. Sleep deprivation is often termed either acute sleep deprivation or chronic partial sleep deprivation. Acute sleep deprivation is termed “pulling an all-nighter”, meaning that a person stays up for 24 hours or longer. More typically, sleep deprivation consists of chronic partial sleep deprivation, where a student obtains some, but **not adequate** sleep. A cross-sectional survey found that 71% of students did not achieve the recommended 8 h of sleep, with 60% classified as poor sleepers. While many studies have investigated the effects of sleep deprivation, few focus on university students, despite the prevalence and impact of sleep deprivation in this population. This project is aimed to show how a night of sleep deprivation, equivalent to an “all-nighter”, would have a negative impact on the motor and cognitive performance of students.
@@ -36,11 +36,11 @@ Sleep deprivation is common amongst university students who live in a culture th
 
 
 ## Research Questions
-1. How does mental health and the quality of sleep correlate among university students?
+1. "Does longer duration of studying lead to a higher GPA"
 
-**Explanation:** This question is important because it shapes the entirety of our research. The datasets we collected involve these topics and it is important to figure out the relationship. This research could help out these college students and find a way to be able to better their learning experience.
+**Explanation:** This question is important because it shapes the entirety of our research. The datasets we collected involve these topics and it is important to figure out the relationship. This research could help out these college students and find a way to be able to better their learning experience and potentially further their grade.
 
-2. What is the relationship between sleep duration and academic performance for university students for online learning during the COVID-19 pandemic?
+2. What is the relationship between sleep duration and fear of COVID-19 for university students for online learning during the COVID-19 pandemic?
 
 **Explanation:** Specifically during the pandemic, online learning was very tiring and overwhelming for many students. Diving deeper into the study can help show how much of a toll this adjustment played on the students.
 

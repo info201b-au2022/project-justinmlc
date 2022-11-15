@@ -1,7 +1,57 @@
 # summary_info.R 
-# A source file that takes in a dataset and returns a list of info about it:
-summary_info <- list()
-summary_info$num_observations <- nrow(my_dataframe)
-summary_info$some_max_value <- my_dataframe %>%
-  filter(some_var == max(some_var, na.rm = T)) %>%
-  select(some_label)
+
+# Load the tidyverse package
+library(tidyverse)
+
+# Read the csv file/files 
+df3 <- read.csv("https://raw.githubusercontent.com/info201b-au2022/project-justinmlc/main/data/potential1.csv")
+
+# This function returns number of observations/rows
+get_num_obs_3 <- function() {
+  num_ob_3 <- nrow(df3)
+  return(prettyNum(num_ob_3,big.mark=",",scientific=FALSE))
+}
+
+# This function returns number of variables/columns
+get_num_var_3 <- function() {
+  num_var_3 <- ncol(df3)
+  return(prettyNum(num_var_3,big.mark=",",scientific=FALSE))
+}
+
+# This function returns gpa 3.5 and 4.0 average sleep hours 
+find_avg_sleep <- function() {
+  avg_sleep <- df3 %>% 
+    select(what.is.your.cgpa, your.sleep.hour.) %>% 
+    filter(what.is.your.cgpa == max(what.is.your.cgpa)) %>% 
+    drop_na() %>% 
+    group_by(what.is.your.cgpa) %>% 
+    summarize(avg_sleep = mean(your.sleep.hour., .groups = 'drop')) %>% 
+    pull(avg_sleep)
+  return(round(avg_sleep, 1))
+}
+
+# Read the csv file/files 
+df2 <- read.csv("https://raw.githubusercontent.com/info201b-au2022/project-justinmlc/main/data/potential3.csv")
+
+# This function returns number of observations/rows
+get_num_obs_2 <- function() {
+  num_obs <- nrow(df2)
+  return(prettyNum(num_obs,big.mark=",",scientific=FALSE))
+}
+
+# This function returns number of variables/columns
+get_num_var_2 <- function() {
+  num_var <- ncol(df2)
+  return(prettyNum(num_var,big.mark=",",scientific=FALSE))
+}
+
+# This function returns average sleep hours
+find_avg_sleep_2 <- function() {
+  avg_sleep <- df2 %>%
+    filter(fear_total == max(fear_total)) %>%
+    drop_na() %>% 
+    group_by(fear_total) %>% 
+    summarise(avg_sleep = mean(sleep_total, .groups = 'drop')) %>% 
+    pull(avg_sleep)
+  return(round(avg_sleep, 1))
+}
