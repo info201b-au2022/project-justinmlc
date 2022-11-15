@@ -1,7 +1,19 @@
 # summary_info.R 
-# A source file that takes in a dataset and returns a list of info about it:
-summary_info <- list()
-summary_info$num_observations <- nrow(my_dataframe)
-summary_info$some_max_value <- my_dataframe %>%
-  filter(some_var == max(some_var, na.rm = T)) %>%
-  select(some_label)
+
+# Load the tidyverse package
+library(tidyverse)
+
+# Read the csv file/files 
+gpa <- read.csv("https://raw.githubusercontent.com/info201b-au2022/project-justinmlc/main/data/potential1.csv")
+
+# This function returns number of observations/rows
+get_num_obs <- function() {
+  num_obs <- nrow(gpa)
+  return(prettyNum(num_obs,big.mark=",",scientific=FALSE))
+}
+
+# This function returns number of variables/columns
+get_num_var <- function() {
+  num_var <- ncol(gpa)
+  return(prettyNum(num_var,big.mark=",",scientific=FALSE))
+}
