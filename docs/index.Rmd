@@ -5,48 +5,17 @@ date: "11/14/2022"
 output: html_document
 ---
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
-
-## What is this report for?
 ```{r source, echo=FALSE}
 source("../source/summary_info.R")
 ```
+## What is this report for?
 
-As our title suggests, this is a report on the impact of sleep on college students. The reason we decided to conduct the analysis is that this is exactly what concerns us as college students, which is to know how sleep affects the lives of college students, especially in terms of academic performance. We found our first dataset through the Kaggle, this dataset focuses on the relationship between student academic performance and sleep duration, we found that this data set has `r get_num_var_3()` columns (variables) corresponding to `r get_num_obs_3()` observations (rows). According to this dataset, the average sleep time of students with GPA between 3.5 and 4.0 is **`r find_avg_sleep()`** hours, which is less than the normal 8 hours. In our second dataset, it has `r get_num_var_2()` columns (variables) corresponding to `r get_num_obs_2()` observations (rows). This dataset focuses on relationship between sleep duration and fear of COVID-19 during the pandemic. According to this dataset, 
+As our title suggests, this is a report on the impact of sleep on college students. The reason we decided to conduct the analysis is that this is exactly what concerns us as college students, which is to know how sleep affects the lives of college students, especially in terms of academic performance. We found our first dataset through the Kaggle, this dataset focuses on the relationship between student academic performance and sleep duration, we found that this data set has `r get_num_var_3()` columns (variables) corresponding to `r get_num_obs_3()` observations (rows). According to this dataset, the average sleep time of students with GPA between 3.5 and 4.0 is **`r find_avg_sleep()`** hours. From this we can see that students with high GPAs tend to sleep less than the recommended 8 hours of sleep. In our second dataset, it has `r get_num_var_2()` columns (variables) corresponding to `r get_num_obs_2()` observations (rows). This dataset focuses on relationship between sleep duration and fear of COVID-19 during the pandemic. According to this dataset, we found that Bangladeshi university students slept an average of **`r find_avg_sleep_2()`** hours during the pandemic when fear of COVID-19 was high. From this we can see that the fear of Covid-19 does not seem to affect the sleep duration.
+
+## Table
 
 
-
-## ACCESSING THE /source DIRECTORY
-### Example 1: Source some code and run a function
-```{r}
-# Example 1: Note relative path, which can be read: Up one
-# directory(..), down into source (/source), and 
-# then "source" an R file (data_access.R)
-source("../source/data_access.R")
-data_access_test()
-```
-
-### Example 2: Initialize a variable and then use it
-```{r}
-# Example 1: This function was "sourced" above
-msg <- data_access_test(" Morgan!")
-```
-
-> `r msg` Hope you have a good day!! 
-
-## ABOUT THIS FILE: 
-
-This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
-
-When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
-
-```{r cars}
-summary(cars)
-```
-
-## Including Plots
+## Plots
 ### Chart 1
 ```{r pressure, echo=FALSE}
 source("../source/ChartForQuestion1.R")

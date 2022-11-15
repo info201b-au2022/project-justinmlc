@@ -25,7 +25,7 @@ find_avg_sleep <- function() {
     filter(what.is.your.cgpa == max(what.is.your.cgpa)) %>% 
     drop_na() %>% 
     group_by(what.is.your.cgpa) %>% 
-    summarize(avg_sleep = mean(your.sleep.hour., na.rm = TRUE)) %>% 
+    summarize(avg_sleep = mean(your.sleep.hour., .groups = 'drop')) %>% 
     pull(avg_sleep)
   return(round(avg_sleep, 1))
 }
@@ -46,8 +46,12 @@ get_num_var_2 <- function() {
 }
 
 # This function returns average sleep hours
-filter(fear_total == max(fear_total, na.rm = TRUE)) %>% 
-  drop_na() %>% 
-  group_by(fear_total) %>% 
-  summarize(avg_sleep = mean(sleep_total, na.rm = TRUE)) %>% 
-  pull(avg_sleep)
+find_avg_sleep_2 <- function() {
+  avg_sleep <- df2 %>%
+    filter(fear_total == max(fear_total)) %>%
+    drop_na() %>% 
+    group_by(fear_total) %>% 
+    summarise(avg_sleep = mean(sleep_total, .groups = 'drop')) %>% 
+    pull(avg_sleep)
+  return(round(avg_sleep, 1))
+}
