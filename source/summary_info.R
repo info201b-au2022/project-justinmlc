@@ -17,3 +17,16 @@ get_num_var <- function() {
   num_var <- ncol(gpa)
   return(prettyNum(num_var,big.mark=",",scientific=FALSE))
 }
+
+# This function returns average sleep hours
+find_avg_sleep <- function() {
+  avg_sleep <- gpa %>% 
+    drop_na() %>% 
+    group_by(your.sleep.hour.) %>% 
+    summarize(avg_sleep = mean(your.sleep.hour., na.rm = TRUE)) %>% 
+    pull(avg_sleep)
+  return(round(avg_sleep, 1))
+}
+
+
+

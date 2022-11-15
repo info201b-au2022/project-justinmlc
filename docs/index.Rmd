@@ -14,7 +14,7 @@ knitr::opts_chunk$set(echo = TRUE)
 source("../source/summary_info.R")
 ```
 
-As our title suggests, this is a report on the impact of sleep on college students. The reason we decided to conduct the analysis is that this is exactly what concerns us as college students, which is to know how sleep affects the lives of college students, especially in terms of academic performance. We found our first dataset through the Kaggle, and we found that this data set has `r get_num_var()` columns (variables) corresponding to `r get_num_obs()` observations (rows). According to the data set, the average amount of sleep a student got was  **`r find_max_avg_sleep()`** hours. 
+As our title suggests, this is a report on the impact of sleep on college students. The reason we decided to conduct the analysis is that this is exactly what concerns us as college students, which is to know how sleep affects the lives of college students, especially in terms of academic performance. We found our first dataset through the Kaggle, and we found that this data set has `r get_num_var()` columns (variables) corresponding to `r get_num_obs()` observations (rows). According to the data set, the average amount of sleep a student got was  **`r find_avg_sleep()`** hours. 
 
 
 ## ACCESSING THE /source DIRECTORY
