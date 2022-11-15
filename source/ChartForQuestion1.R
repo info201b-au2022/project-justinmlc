@@ -13,7 +13,7 @@ dataset_1 <- df %>%
   group_by(what.is.your.cgpa) %>% 
   summarize(avgstudyhr = mean(study.hour))
 
-chart1 <- ggplot(dataset_1) + 
+ chart1 <- ggplot(dataset_1) + 
   geom_histogram(
     mapping = aes(
       x = what.is.your.cgpa, 
