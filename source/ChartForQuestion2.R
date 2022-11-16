@@ -13,9 +13,10 @@ chart_2_data <- df %>%
   group_by(fear_total) %>% 
   summarize(avg = mean(sleep_total))
 
+view(df)
 
 
-chart2 <- ggplot(data = chart_2_data) + 
+chart2 <- ggplot(data = df) + 
 geom_point(mapping = aes(x = fear_total, y = sleep_total)) +
 geom_smooth(mapping = aes(x = fear_total, y = sleep_total)
   ) + 
@@ -37,4 +38,4 @@ find_max_avg_fear <- function() {
   return(round(max_avg_fear, 1))
 }
 
-plot <- plot(chart2)
+plot <- plot(chart2) 
