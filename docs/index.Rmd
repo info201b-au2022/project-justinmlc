@@ -28,6 +28,7 @@ min_study_hr <- find_min_studyhr()
 
 This bar chart is in correspodance to our first research question *"Does longer duration of studying lead to a higher GPA"* This visualization was included in order to find a correspondence between a person's GPA and the time they spend studying. According to our findings, it appears that time spent studying has no real correlation to school performance GPA-wise. For example, the minimum time someone has spent studying is `r min_study_hr`, but the students with that amount of study time on average do not have the lowest GPAs.
 
+### Chart 2
 ```{r, echo=FALSE}
 source("../source/ChartForQuestion2.R")
 plot(chart2)
