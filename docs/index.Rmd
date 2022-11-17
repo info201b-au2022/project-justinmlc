@@ -19,7 +19,7 @@ As our title suggests, this is a report on the impact of sleep on college studen
 source("../source/Table.R")
 table
 ```
-
+In the table above, there are 3 columns containing the students' Cumulative GPA, study hours they spent, and average sleep hours The whole table is arranged in order from least to most hours, so that the connection between sleep hours and academic performance can be clearly shown. 
 
 ## Plots
 ### Chart 1
