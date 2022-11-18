@@ -25,6 +25,7 @@ chart3 <- ggplot(relevant_data) +
     y = "Average Hours of Sleep", 
     title = "Students' GPA Relative to Their Sleep Patterns",
   ) + 
+  coord_flip() +
   theme(legend.position = "none")
   
 chart3

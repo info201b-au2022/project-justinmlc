@@ -38,4 +38,4 @@ find_max_avg_fear <- function() {
   return(round(max_avg_fear, 1))
 }
 
-plot <- plot(chart2) 
+
