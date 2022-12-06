@@ -16,6 +16,9 @@ source("tabs/tab_panel_summary.R")
 source("tabs/tab_panel_report.R")
 
 server <- function(input, output) {
+  
+  
+  # Code for displaying chart 3 and making the buttons associate with variables
   output$chart3 <- renderPlotly({
     ggplot(data = relevant_data) + 
       geom_col(

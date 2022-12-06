@@ -9,13 +9,19 @@ source("tabs/tab_panel_summary.R")
 source("tabs/tab_panel_report.R")
 
 ui <- navbarPage(
-  theme = shinytheme("slate"),
+  theme = shinytheme("simplex"),
   title =" Project Sleepy",
   position = "fixed-top",
   windowTitle = "Project Sleepy",
+  header = list(
+    tags$style(type = "text/css", "body {padding-top: 70px;}"),
+    hr(),
+    HTML("Project Sleepy: INFO 201"),
+    hr()
+  ),
   
   # Introduction 
-  #tab_panel_intro,
+  tab_panel_intro,
   
   # Chart 1
   #tab_panel_chart1,
