@@ -19,7 +19,8 @@ tab_panel_intro <- tabPanel(
     column(
       8, 
       h1("Introduction"),
-      p(para1)
+      p(para1),
+      img(class="img-polaroid",src="sleeping.jpeg")
     )
   )
 )
