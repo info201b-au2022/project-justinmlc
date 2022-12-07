@@ -20,7 +20,12 @@ tab_panel_intro <- tabPanel(
       8, 
       h1("Introduction"),
       p(para1),
-      img(class="img-polaroid",src="sleeping.jpeg")
+      img(class="img-polaroid",
+          src="sleeping.jpeg"
+      ),
+      tags$small(
+        "Source: Photographed at the University of St. Thomas"
+      )
     )
   )
 )

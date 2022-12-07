@@ -92,6 +92,8 @@ Sleep deprivation has significant effects. Sleep-deprived professionals struggle
 
 41-47, https://www.tandfonline.com/doi/full/10.1111/ajpy.12160
 
+https://news.stthomas.edu/studying-the-sleep-habits-of-college-students/
+
 
 ## Appendix A: Questions
 For the problem domain section, I am not sure what the format of the required citations should be, so I used the hyperlink form to cite. -- Zerong W. 
