@@ -35,6 +35,39 @@ server <- function(input, output) {
 }
 
 server <- function(input, output) {
+  #Code for Chart 1
+  output$chart1 <- renderPlotly({
+    ggplot(data = dataset_1) +
+             geom_col(
+               mapping = aes(x = what.is.your.cgpa, y = avgstudyhr, fill = what.is.your.cgpa)
+             ) +
+             scale_y_continuous(breaks=seq(0,10,input$division)) +
+             labs(
+               x = "Cumulative GPA",
+               y = "Average study hour",
+               title = "Students' GPA and time they spent studying"
+             ) +
+             theme(legend.position = "none")
+           
+  })
+  
+  # Code for Chart 2
+  output$chart2 <- renderPlotly({
+    ggplot(data = df) + 
+    geom_point(mapping = aes(x = fear_total, y = sleep_total)) +
+    geom_smooth(mapping = aes(x = fear_total, y = sleep_total)
+    ) + 
+    
+    labs(
+      x = "Fear of COVID-19 Total",
+      y = "Average Hours of Sleep", 
+      title = "Students' Fear of COVID-19 Total versus their Average Hours of Sleep",
+    ) + 
+    theme(legend.position = "none")
+  })
+
+  
+  # Code for displaying chart 3 and making the buttons associate with variables
   output$chart3 <- renderPlotly({
     ggplot(data = relevant_data) + 
       geom_col(
