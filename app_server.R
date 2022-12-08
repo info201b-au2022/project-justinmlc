@@ -32,7 +32,7 @@ server <- function(input, output) {
     ) + 
     theme(legend.position = "none")
   })
-}
+
   
   # Code for displaying chart 3 and making the buttons associate with variables
   output$chart3 <- renderPlotly({

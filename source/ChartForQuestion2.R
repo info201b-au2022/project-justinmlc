@@ -13,8 +13,6 @@ chart_2_data <- df %>%
   group_by(fear_total) %>% 
   summarize(avg = mean(sleep_total))
 
-view(df)
-
 
 chart2 <- ggplot(data = df) + 
 geom_point(mapping = aes(x = fear_total, y = sleep_total)) +
