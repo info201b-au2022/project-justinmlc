@@ -14,7 +14,7 @@ dataset_1 <- df %>%
   summarize(avgstudyhr = mean(study.hour, na.rm = TRUE))
 
  chart1 <- ggplot(dataset_1) + 
-  geom_col(
+  geom_segment(
     mapping = aes(
       x = what.is.your.cgpa, 
       y = avgstudyhr, fill=what.is.your.cgpa)  
