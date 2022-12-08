@@ -18,7 +18,7 @@ ui <- navbarPage(
   #tab_panel_intro,
   
   # Chart 1
-  #tab_panel_chart1,
+  tab_panel_chart1,
   
   #Chart 2
   #tab_panel_chart2,

@@ -44,3 +44,4 @@ find_min_studyhr <- function() {
     pull(study.hour)
   
 }
+
