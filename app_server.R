@@ -18,6 +18,22 @@ source("tabs/tab_panel_report.R")
 server <- function(input, output) {
   
   
+  # Code for Chart 2
+  output$chart2 <- renderPlotly({
+    ggplot(data = df) + 
+    geom_point(mapping = aes(x = fear_total, y = sleep_total)) +
+    geom_smooth(mapping = aes(x = fear_total, y = sleep_total)
+    ) + 
+    
+    labs(
+      x = "Fear of COVID-19 Total",
+      y = "Average Hours of Sleep", 
+      title = "Students' Fear of COVID-19 Total versus their Average Hours of Sleep",
+    ) + 
+    theme(legend.position = "none")
+  })
+}
+  
   # Code for displaying chart 3 and making the buttons associate with variables
   output$chart3 <- renderPlotly({
     ggplot(data = relevant_data) + 
