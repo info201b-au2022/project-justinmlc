@@ -6,6 +6,8 @@
 library(tidyverse)
 library(ggplot2)
 
+view(df)
+
 # Read the csv file/files
 df <- read.csv("https://raw.githubusercontent.com/info201b-au2022/project-justinmlc/main/data/potential3.csv")
 chart_2_data <- df %>% 
@@ -13,10 +15,11 @@ chart_2_data <- df %>%
   group_by(fear_total) %>% 
   summarize(avg = mean(sleep_total))
 
+view(chart_2_data)
 
-chart2 <- ggplot(data = df) + 
-geom_point(mapping = aes(x = fear_total, y = sleep_total)) +
-geom_smooth(mapping = aes(x = fear_total, y = sleep_total)
+chart2 <- ggplot(data = chart_2_data) + 
+geom_point(mapping = aes(x = fear_total, y = avg)) +
+geom_smooth(mapping = aes(x = fear_total, y = avg)
   ) + 
   
   labs(
@@ -36,4 +39,4 @@ find_max_avg_fear <- function() {
   return(round(max_avg_fear, 1))
 }
 
-
+plot(chart2)
