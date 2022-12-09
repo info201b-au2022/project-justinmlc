@@ -1,6 +1,6 @@
 # Panel for Chart 3
 library(shiny)
-source("source/ChartFOrQuestion3.R")
+source("source/ChartForQuestion3.R")
 
 tab_panel_chart3 <- tabPanel(
   "Chart 3",
