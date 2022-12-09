@@ -35,11 +35,11 @@ server <- function(input, output) {
   
   # Code for Chart 2
   output$chart2 <- renderPlotly({
-    ggplot(data = df) + 
-    geom_point(mapping = aes(x = fear_total, y = sleep_total)) +
-    geom_smooth(mapping = aes(x = fear_total, y = sleep_total)
+    ggplot(data = chart_2_data) + 
+    geom_point(mapping = aes(x = fear_total, y = avg)) +
+    geom_smooth(mapping = aes(x = fear_total, y = avg)
     ) + 
-    
+      scale_y_continuous(breaks=seq(0,10,input$division)) +
     labs(
       x = "Fear of COVID-19 Total",
       y = "Average Hours of Sleep", 
