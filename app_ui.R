@@ -46,6 +46,6 @@ ui <- navbarPage(
   #tab_panel_summary,
   
   # Report
-  #tab_panel_report
+  tab_panel_report
   
 )
