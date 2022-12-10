@@ -115,6 +115,3 @@ We would like to thank the teaching team of  INFO 201.
 
 https://news.stthomas.edu/studying-the-sleep-habits-of-college-students/
 
-
-## Appendix A: Questions
-For the problem domain section, I am not sure what the format of the required citations should be, so I used the hyperlink form to cite. -- Zerong W. 
