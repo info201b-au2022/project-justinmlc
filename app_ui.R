@@ -43,7 +43,7 @@ ui <- navbarPage(
   tab_panel_chart3,
   
   # Summary Takeaways
-  #tab_panel_summary,
+  tab_panel_summary,
   
   # Report
   tab_panel_report

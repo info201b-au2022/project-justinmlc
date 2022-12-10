@@ -84,6 +84,14 @@ The second chart was created to answer the question, “What is the relationship
 
 Lastly, the third chart was a representation of the question, “How does sleep duration and quality impact university students’ academic performance?” The bar chart shows a clear correlation between GPA and average hours of sleep. Students with higher GPAs had the higher average hours of sleep. Students ranging from a 3.5-4.0 had an average of 6.5 hours of sleep. Students with a 3.0-3.49 had an average of 6 hours of sleep. And students with a 2.0-2.49 had an average of about 5.8 hours of sleep. As average hour of sleep decrease, GPA does as well. The visualization makes the statement that getting enough sleep is detrimental to one’s academic performance. However, it should be noted that the recommended daily average of sleep is 8 hours, which is significantly higher than the average of these students.
 
+## Conclusion
+
+
+## Acknowledgements
+
+We would like to thank the teaching team of  INFO 201. 
+
+
 ## References
 1. Ahammed Benojoir et. all. Exploring the association between mental health and subjective sleep quality during COVID-19 pandemic among Bangladeshi university students. Harvard Dataverse. https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/94KDOL
 
